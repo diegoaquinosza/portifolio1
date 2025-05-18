@@ -1,0 +1,146 @@
+* {
+  justify-items: center;
+  align-items: top;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #303030;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  background-color: #e3f2f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.barra {
+    
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  padding: 20px;
+  line-height: 2;
+}
+
+.nav {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  background-color: #e3f2f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px 10px 10px 10px;
+  padding: 6px;
+  
+}
+
+h4 {
+  text-align: center;
+}
+p {
+  margin: 30px 30px;
+}
+
+.tabela {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 30px 30px;
+
+  padding: 10px;
+}
+
+table {
+  border: 1px solid #cfcece;
+  width: min(100%, 1000px);
+  table-layout: fixed;
+  text-align: left;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+td {
+  border: 1px solid #cfcece;
+  line-height: 2;
+}
+th {
+  border: 1px solid #cfcece;
+  line-height: 2;
+}
+.lista {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  line-height: 1.5;
+  margin: 30px 30px;
+}
+.alimentação {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  line-height: 1.5;
+  margin: 30px 30px;
+  padding: 10px;
+}
+ol {
+  padding: 0;
+  margin: 0;
+  justify-items: start;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  justify-items: start;
+}
+.intro {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  object-fit: cover;
+}
+.foto {
+  width: 300px;
+  height: 220px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0000001a;
+}
+.fotoind {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+#grade {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "cabeçalho cabeçalho cabeçalho"
+    "intro intro intro"
+    "lista tabela tabela"
+    "card1 card2 card3";
+}
+#gradeorca {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "cabeçalho cabeçalho cabeçalho"
+    "barra intro intro"
+    "barra intro intro"
+    "lista tabela tabela"
+    "card1 card1 card1";
+}
