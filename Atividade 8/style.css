@@ -51,6 +51,6 @@ form {
 }
 
 form input {
-    height: 30px;
+    height: 100%;
     border-radius: 18px;
 }
