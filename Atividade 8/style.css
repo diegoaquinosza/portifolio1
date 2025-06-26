@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #234ca6;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imagem {
+  width: 850px;
+}
+
+img {
+  width: 750px;
+  border-radius: 50px;
+}
+
+h1 {
+  color: aliceblue;
+  text-align: center;
+  font-size: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+  color: aliceblue;
+  text-align: center;
+  font-size: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.formulario {
+  width: 700px;
+  border: solid #ffffff48;
+  border-radius: 30px;
+}
+
+form {
+    margin-right: 50px;
+    margin-left: 50px;
+    color: aliceblue;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form input {
+    height: 30px;
+    border-radius: 18px;
+}

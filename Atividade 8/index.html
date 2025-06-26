@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>PetAstral</title>
+</head>
+
+<body>
+    <div class="imagem">
+        <h1>Faça o mapa Astral do seu Pet!</h1>
+        <img src="./img/Gemini_Generated_Image_tuuzp8tuuzp8tuuz.png" alt="um gato e um peixe, estilo desenho, felizes">
+    </div>
+    <div class="formulario">
+        <h2>Me fale sobre o seu pet</h2>
+        <form>
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="tipo">Tipo:</label><br>
+            <input list="tipo">
+            <datalist id="tipo">
+                <option value="Gato">
+                <option value="Cachorro">
+                <option value="Papagaio">
+                <option value="Peixe">
+                <option value="Sapo">
+            </datalist><br><br>
+
+            <label for="birthday">Data do nascimento:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+
+            <label for="t">Temperamento:</label><br>
+            <input type="radio" id="t" name="temperamento" value="Calmo">
+            <label for="Calmo">Calmo</label><br>
+            <input type="radio" id="Agitado" name="temperamento" value="Agitado">
+            <label for="Agitado">Agitado</label><br>
+            <input type="radio" id="Bipolar" name="temperamento" value="Bipolar">
+            <label for="Bipolar">Bipolar</label><br>
+            <input type="radio" id="Surtado" name="temperamento" value="Surtado">
+            <label for="Surtado">Surtado</label><br><br>
+
+            <label for="mapa">Opções de mapa:</label><br>
+            <input type="checkbox" id="elementos" name="elementos" value="m">
+            <label for="elementos"> Elemental</label><br>
+            <input type="checkbox" id="estelar" name="estelar" value="2">
+            <label for="estelar"> Origem estelar</label><br>
+            <input type="checkbox" id="poderes" name="poderes" value="3">
+            <label for="poderes"> Poderes sobrenaturais</label><br><br>
+
+            <label for="email">Insira o seu email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <input type="button" id="botao"
+                onclick="alert('Faça um pix para o Gato Místico e depois olhe o seu e-mail!  (>^.^<)  Obrigado! ')"
+                value="Gerar Mapa Astral!">
+        </form>
+
+    </div>
+</body>
+
+</html>
